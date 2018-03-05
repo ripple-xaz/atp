@@ -2,6 +2,9 @@
 
 
 window.onload= function(){
+	var getElement = function(el){
+		return document.getElementById(el)
+	}
 	setTimeout(function(){
 		var flag = true; //防止滚动重复加载
 
@@ -31,6 +34,48 @@ window.onload= function(){
 					}, 27000)
 				}
 			}
+		}
+
+		var t= 0 ;
+		t1 = t+1000;
+		t_all = t1+3000
+		getElement('first-cont').onclick = function(){
+			console.log('move')
+			Velocity(document.getElementById("first-finger"),
+			 {
+				 opacity:0
+			},{
+				duration:1000
+			});
+			Velocity(document.getElementById("first-click"),
+			 {
+				 opacity: 0
+			},{
+				duration:1000
+			});
+
+
+
+
+			Velocity(document.getElementById("move-pic"),
+			 {
+				zIndex:10
+			},{
+				duration:0
+			});
+			Velocity(document.getElementById("move-pic"), {
+			    opacity: 1
+			}, {
+			    duration: t1
+			});
+			Velocity(document.getElementById("move-pic"),
+			 {
+				left:640
+			},{
+				duration:t_all,
+				easing: "linear"
+			});
+
 		}
 	},100)
  	

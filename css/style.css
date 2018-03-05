@@ -120,6 +120,146 @@ html,body{
 			vertical-align: middle;
 			margin-right: 10px;
 		}
+		#advertise{
+			background: rgba(20,31,51,1)  50% 0 no-repeat;
+			width:100%;
+			height: 650px;
+		}
+		#advertise .title{
+			font-size: 34px;
+			line-height: 70px;
+			letter-spacing: 0px;
+			color: #ffffff;
+			padding:48px 0 19px; 
+			
+		}
+		#advertise .tit li{
+			float: left;
+			font-size: 23px;
+			line-height: 70px;
+			letter-spacing: 0px;
+			color: rgba(255, 255, 255, 0.8);
+			width: 300px;
+			box-sizing: border-box;
+		}
+		#advertise .tit li:nth-child(2){
+			margin: 0 50px 0 50px;
+			padding-left: 40px;
+		}
+		#advertise .tit li:nth-child(3){
+			padding-left: 40px;
+		}
+		#advertise .content,#advertise .content>div{
+			height: 243px;
+			position: relative;
+		}
+		#advertise .content ul li{
+			float: left;
+
+		}
+		#advertise .content ul li.first{
+			width: 241px;
+			height: 51px;
+			background-color: #2b81cb;
+			border-radius: 5px;
+			line-height: 51px;
+			color: #ffffff;
+			margin-top:80px;
+			position: relative;
+		}
+		#advertise .content ul,#advertise .content ul li{
+			height: 100%;
+		}
+
+		#advertise .content ul li #first-cont{
+			cursor: pointer;
+			display: inline-block;
+			width: 100%;
+			height: 100%;
+		}
+		
+		#advertise .content ul li.first #first-click{
+			position: absolute;
+			font-size: 18px;
+			color: #fff;
+			top: 66px;
+			left: 138px;
+			width: 200px;
+			display: inline-block;
+		}
+		#advertise .content ul li.first #first-finger{
+			position: absolute;
+			top: 19px;
+			left: 205px;
+			width: 60px;
+		}
+		#advertise .content ul li.second{
+			text-align: center;
+			position: relative;
+			width: 223px;
+			padding:49px 65px 0 53px;
+			box-sizing: border-box;
+			
+		}
+		#advertise .content ul li.second .contact-info{
+			color: #677286;
+			font-size: 14px;
+			margin-top: 32px;
+			position: absolute;
+			left: 20px;
+			bottom: 24px;
+		}
+		#advertise .content ul li.second .contact-info span:first-child{
+			margin-right: 10px;
+		}
+		#advertise .content ul li.second .contact-info img{
+			width: 16px;
+			vertical-align: middle;
+			margin-right: 2px;
+		}
+		#advertise .content ul li.second .contact-static{
+			width: 95px;
+			z-index: 100;
+			left: 50%;
+			transform: translateX(-50%);
+			position: absolute;
+		}
+		#advertise .content ul li.second #contact-state{
+			position: absolute;
+			width: 34px;
+			height: 34px;
+			top: 131px;
+			left:129px;
+			z-index: 101;
+		}
+		#advertise .content ul li.third{
+			margin: 20px 345px 0 0;
+		}
+		#advertise .content ul li.third img{
+			position: absolute;
+			z-index: 100;
+		}
+		#advertise .content ul li.fourth img{
+		
+			margin: 20px 0 0 0;
+		}
+		#advertise #move-pic{
+			position: absolute;
+			width: 94px;
+			height: 78px;
+			top:64px;
+			left: 80px;
+			opacity: 0;
+			z-index: -1;
+		}
+		#advertise  .nav-code{
+			
+			margin-top: 87px;
+		}
+		#advertise  .nav-code a{
+			color: #677286;
+		}
+
 		#cases{overflow: hidden;background-color: #141f33;height: 470px;}
 		.cases-list{
 			margin: 45px 0;
